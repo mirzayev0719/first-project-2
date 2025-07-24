@@ -41,6 +41,7 @@
 
   .hero {
     margin-left: 120px;
+    margin-right: 123px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,6 +102,15 @@
   
   .hero-image img {
     max-width: 520px;
-    max: height 520px;;
+    max-height: 520px;
   }
+  .footer{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #445162;
+    font-size: 12px;
+    
+    
+}
   
