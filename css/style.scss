@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 60px;
+  padding:  16px 220px 16px 220px;
   background: #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
 }
@@ -67,19 +67,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 80px;
   background: linear-gradient(to right, #ffc107, #ffca28);
   
 }
 
 .hero-content {
-  margin: 132px 0px 132px 220px;
+  white-space: nowrap;
+  margin: 0px 0px 132px 220px;
   flex: 1;
   max-width: 550px;
 
   h1 {
-    font-size: 48px;
-    font-weight: 800;
+    font-size: 88px;
     margin-bottom: 10px;
     color: #fff;
   }
@@ -117,6 +116,7 @@ body {
       justify-content: center;
       gap: 6px;
       cursor: pointer;
+      
 
       &.active {
         color: #ff7e42;
@@ -153,6 +153,11 @@ body {
       font-weight: 600;
       background: #ff7e42;
       color: #fff;
+      margin-left: 10px;
+      border-radius: 5px;
+     
+   
+      
 
       &:hover {
         background: darken(#ff7e42, 5%);
@@ -162,11 +167,36 @@ body {
 }
 
 .hero-image {
-  flex: 1;
+position: relative;
+top: 70px;
+right: 220px;
+}
+
+.discount{
+  position: relative;
+  font-family: Arial, sans-serif;
   display: flex;
-  justify-content: start;
-  margin-left: 109px;
-  margin-right: 218px;
- 
+  padding:80px 0px 0px 220px;
+  background-color: #fff;
+}
+.discount__block{
+  padding: 16px;
+}
+
+.discount__card{
+  width: 357px;
+}
+.discount__block img{
+border-radius: 25px;
+}
+.discount__icon img{
+  border-radius: 0px;
+  }
+
+
+.discount__icon{
+position: relative;
+bottom: 85px;
+left: 0;
 }
 
