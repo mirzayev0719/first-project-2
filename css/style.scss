@@ -3,9 +3,8 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  margin: 0;
   font-family: 'Segoe UI', sans-serif;
- 
+  margin: 0;
 }
 
 .navbar {
@@ -174,9 +173,6 @@ body {
       color: #fff;
       margin-left: 10px;
      
-   
-      
-
       &:hover {
         background: darken(#ff7e42, 5%);
       }
@@ -197,6 +193,7 @@ right: 200.51px;
   display: flex;
   padding:80px 0px 0px 220px;
   background-color: #fff;
+  padding-bottom: 80px;
 }
 .discount__block{
 padding: 0px 16px 0px 0px ;
@@ -228,6 +225,7 @@ left: -108.2px;
   font-weight: 700;
   margin: 0;
   line-height: 120%;
+  
 }
 .title{
   padding: 32px 0px 14px 0px;
@@ -241,12 +239,15 @@ left: -108.2px;
   color: #F17228;
 }
 
+.block__how-does{
+ background: linear-gradient(to bottom, rgba(255, 206, 103, 0.1), #FDEDCA00); 
+
+}
 
 .how{
-display: flex;
-  // background: linear-gradient(to bottom, rgba(255, 206, 103, 0.1), #FDEDCA00); //
-padding: 0px 300px;
-gap: 32px;
+  display: flex;
+  padding: 0px 300px;
+  gap: 32px;
 }
 
 .how__header{
@@ -260,8 +261,9 @@ gap: 32px;
   color: #F17228;
 }
 .how__card{ 
-  gap: 41px;
-  text-align: center; //texti centda ushidi//
+    gap: 41px;
+    text-align: center; //texti centda ushidi//
+    padding-bottom: 80px;
   h2{
     font-size: 22px;
     font-weight: 700;
@@ -269,9 +271,63 @@ gap: 32px;
     color: #434343;
   }
   p{
-  font-size: 18px;
-  line-height: 140%;
-  color: #9e9e9e;
+    font-size: 18px;
+    line-height: 140%;
+    color: #9e9e9e;
   }
-  
 }
+.popular__title{
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 112%;
+  text-align: center;
+  color: #212121;
+  padding-bottom: 88px;
+}
+
+.popular{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.popular__card{
+  max-width: 1481px;
+}
+.popular__img{}
+.title__food{
+h2{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  color: #424242;
+}
+span{
+  font-size: 22px;
+  line-height: 120%;
+  color: #ffb30e;
+  gap: 8px;
+}
+button{
+  font-size: 18px;
+  font-weight: 700;
+  border: 0;
+  min-width: 283px;
+  border-radius: 8px;
+  gap: 10px;
+  padding: 21px 48px;
+  color: #fff;
+  background: #f17228;
+  cursor: pointer;
+}
+}
+.arrow{
+  background: #fff;
+  max-height: 76px;
+  margin-top: 70px;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
