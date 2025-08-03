@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
 body {
+  font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   font-family: "Segoe UI", sans-serif;
-  background: #f5f5f5;
 }
 
 .navbar {
@@ -27,7 +28,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
   gap: 4px;
 }
@@ -39,6 +40,7 @@ body {
 }
 
 .delivery {
+  font-size: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,6 +54,7 @@ body {
 }
 
 .right-nav {
+  font-size: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,6 +71,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   gap: 6px;
+  font-weight: 700;
 }
 .right-nav .login {
   display: -webkit-box;
@@ -81,10 +85,12 @@ body {
   background: #fff;
   border: none;
   border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FF8A00;
   -webkit-box-shadow: 0 0 5px rgba(255, 193, 7, 0.3333333333);
           box-shadow: 0 0 5px rgba(255, 193, 7, 0.3333333333);
-  cursor: pointer;
-  font-weight: bold;
 }
 
 .hero {
@@ -108,6 +114,7 @@ body {
       -ms-flex: 1;
           flex: 1;
   max-width: 550px;
+  padding-top: 132px;
 }
 .hero-content h1 {
   font-size: 88px;
@@ -122,6 +129,7 @@ body {
 }
 
 .order-container {
+  min-width: 856px;
   background: #fff;
   padding: 20px;
   border-radius: 12px;
@@ -162,6 +170,10 @@ body {
   color: #ff7e42;
   border-color: #ff7e42;
 }
+.order-container .input__text {
+  max-width: 593px;
+  max-height: 49px;
+}
 .order-container .order-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -169,6 +181,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 5px;
 }
 .order-container .order-form input {
   -webkit-box-flex: 1;
@@ -190,7 +203,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   gap: 6px;
-  min-height: 60px;
+  min-height: 50px;
   border: none;
   padding: 0 20px;
   border-radius: 0 10px 10px 0;
@@ -199,16 +212,16 @@ body {
   background: #ff7e42;
   color: #fff;
   margin-left: 10px;
-  border-radius: 5px;
 }
 .order-container .order-form button.find-btn:hover {
   background: #ff6d29;
 }
 
 .hero-image {
+  max-width: 497px;
   position: relative;
-  top: 70px;
-  right: 220px;
+  top: 130px;
+  right: 200.51px;
 }
 
 .discount {
@@ -222,23 +235,89 @@ body {
 }
 
 .discount__block {
-  padding: 16px;
-}
-
-.discount__card {
-  width: 357px;
+  padding: 0px 16px 0px 0px;
+  border: none;
+  background-color: #fff;
 }
 
 .discount__block img {
+  cursor: pointer;
   border-radius: 25px;
 }
 
 .discount__icon img {
-  border-radius: 0px;
+  border-radius: 0px 0px 0px 24px;
+}
+
+.discount__card {
+  max-height: 301px;
 }
 
 .discount__icon {
   position: relative;
   bottom: 85px;
-  left: 0;
+  left: -108.2px;
+}
+
+.discount p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 120%;
+}
+
+.title {
+  padding: 32px 0px 14px 0px;
+  color: #424242;
+}
+
+.color {
+  max-width: 173px;
+  border-radius: 8px;
+  padding: 8px 16px 8px 16px;
+  background: rgba(241, 114, 40, 0.2);
+  color: #F17228;
+}
+
+.how {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 300px;
+  gap: 32px;
+}
+
+.how__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 112%;
+  padding: 80px 0px 71px 0px;
+  color: #F17228;
+}
+
+.how__card {
+  gap: 41px;
+  text-align: center;
+}
+.how__card h2 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #434343;
+}
+.how__card p {
+  font-size: 18px;
+  line-height: 140%;
+  color: #9e9e9e;
 }
